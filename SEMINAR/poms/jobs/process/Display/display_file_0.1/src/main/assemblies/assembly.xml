@@ -100,6 +100,48 @@
 				<include>pom.xml</include>
 			</includes>
 		</fileSet>
+		<fileSet><!--parent pom.xml -->
+			<directory>${parentpom.dir}</directory>
+			<outputDirectory>.</outputDirectory>
+			<includes>
+				<include>pom.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet><!--routines code -->
+			<directory>${routinescode.dir}</directory>
+			<outputDirectory>code/routines/src/main</outputDirectory>
+			<includes>
+				<include>**/**/*.*</include>
+			</includes>
+		</fileSet>
+		<fileSet><!--routines pom -->
+			<directory>${routinespom.dir}</directory>
+			<outputDirectory>code/routines/</outputDirectory>
+			<includes>
+				<include>pom.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet><!--pigudf code -->
+			<directory>${pigudfcode.dir}</directory>
+			<outputDirectory>code/pigudf/src/main</outputDirectory>
+			<includes>
+				<include>**/**/*.*</include>
+			</includes>
+		</fileSet>
+		<fileSet><!--pifudf pom -->
+			<directory>${pigudfpom.dir}</directory>
+			<outputDirectory>code/pigudf/</outputDirectory>
+			<includes>
+				<include>pom.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet><!--joblet -->
+			<directory>${joblet.dir}</directory>
+			<outputDirectory>jobs/</outputDirectory>
+			<includes>
+				<include>joblets*/**/*.*</include>
+			</includes>
+		</fileSet>
 		<fileSet> <!-- add items -->
 			<directory>${items.dir}</directory>
 			<outputDirectory>${talend.job.name}</outputDirectory>
@@ -166,21 +208,13 @@
 				<include>config/**</include>
 			</includes>
 		</fileSet>
-		<fileSet><!-- survivorship rules -->
-			<directory>${survivorship.rules.dir}</directory>
-			<outputDirectory>${talend.job.name}/items/${talend.project.name.lowercase}/metadata/survivorship/</outputDirectory>
-			<includes>
-			</includes>
-		</fileSet>
 	</fileSets>
 	<dependencySets>
 		<dependencySet>
 			<outputDirectory>lib</outputDirectory>
 			<includes>
-				<include>org.talend.libraries:dom4j-1.6.1</include>
-				<include>org.talend.libraries:log4j-1.2.16</include>
-				<include>org.talend.libraries:talend_file_enhanced_20070724</include>
 				<include>org.example.seminar.code:routines</include>
+				<include>org.talend.libraries:talend_file_enhanced_20070724</include>
 			</includes>
 			<!-- without version for talend libraries -->
 			<outputFileNameMapping>${artifact.artifactId}.${artifact.extension}
@@ -190,7 +224,9 @@
 		<dependencySet>
 			<outputDirectory>lib</outputDirectory>
 			<includes>
-				<include>null:null</include>
+				<include>commons-io:commons-io</include>
+				<include>dom4j:dom4j</include>
+				<include>log4j:log4j</include>
 			</includes>
 			<useProjectArtifact>false</useProjectArtifact>
 		</dependencySet>

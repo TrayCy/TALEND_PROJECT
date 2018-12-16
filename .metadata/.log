@@ -219,3 +219,110 @@ java.lang.NullPointerException
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-12-16 17:49:51.094 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2018-12-16 17:49:52.065
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2018-12-16 17:49:52.106
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-16 17:49:53.365
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:49:57.017
+!MESSAGE 2018-12-16 17:49:57,015 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:50:08.684
+!MESSAGE 2018-12-16 17:50:08,683 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:23.183
+!MESSAGE 2018-12-16 17:50:23,183 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:23.185
+!MESSAGE 2018-12-16 17:50:23,184 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:32.107
+!MESSAGE 2018-12-16 17:50:32,107 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:32.110
+!MESSAGE 2018-12-16 17:50:32,109 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:36.765
+!MESSAGE 2018-12-16 17:50:36,764 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à SEMINAR
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:50:38.531
+!MESSAGE 2018-12-16 17:50:38,531 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:52:50.877
+!MESSAGE 2018-12-16 17:52:50,876 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:52:51.426
+!MESSAGE 2018-12-16 17:52:51,425 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:52:52.167
+!MESSAGE 2018-12-16 17:52:52,166 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Display/display_file_0.1/target/classpath.jar; seminar.display_file_0_1.display_file --context=Default --stat_port=3385 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:53:46.889
+!MESSAGE 2018-12-16 17:53:46,889 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:53:47.720
+!MESSAGE 2018-12-16 17:53:47,720 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:53:48.344
+!MESSAGE 2018-12-16 17:53:48,344 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Display/display_file_0.1/target/classpath.jar; seminar.display_file_0_1.display_file --context=Default --stat_port=3780 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:55:35.801
+!MESSAGE 2018-12-16 17:55:35,801 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:55:37.152
+!MESSAGE 2018-12-16 17:55:37,152 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:55:37.659
+!MESSAGE 2018-12-16 17:55:37,659 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Display/display_file_0.1/target/classpath.jar; seminar.display_file_0_1.display_file --context=Default --stat_port=3558 %*
+

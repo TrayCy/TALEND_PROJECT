@@ -46,7 +46,7 @@ import java.util.Comparator;
  * Job: display_file Purpose: <br>
  * Description:  <br>
  * @author user@talend.com
- * @version 7.0.1.20180411_1414
+ * @version 7.1.1.20181026_1147
  * @status 
  */
 public class display_file implements TalendJob {
@@ -296,6 +296,17 @@ public class display_file implements TalendJob {
 		tFileInputFullRow_1_onSubJobError(exception, errorComponent, globalMap);
 	}
 
+	public void tFileOutputRaw_1_error(Exception exception,
+			String errorComponent, final java.util.Map<String, Object> globalMap)
+			throws TalendException {
+
+		end_Hash.put(errorComponent, System.currentTimeMillis());
+
+		status = "failure";
+
+		tFileInputFullRow_1_onSubJobError(exception, errorComponent, globalMap);
+	}
+
 	public void tFileInputFullRow_1_onSubJobError(Exception exception,
 			String errorComponent, final java.util.Map<String, Object> globalMap)
 			throws TalendException {
@@ -304,6 +315,127 @@ public class display_file implements TalendJob {
 				.currentThread().getId() + "", "FATAL", "",
 				exception.getMessage(),
 				ResumeUtil.getExceptionStackTrace(exception), "");
+
+	}
+
+	public static class row2Struct implements
+			routines.system.IPersistableRow<row2Struct> {
+		final static byte[] commonByteArrayLock_SEMINAR_display_file = new byte[0];
+		static byte[] commonByteArray_SEMINAR_display_file = new byte[0];
+
+		public String line;
+
+		public String getLine() {
+			return this.line;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_SEMINAR_display_file.length) {
+					if (length < 1024
+							&& commonByteArray_SEMINAR_display_file.length == 0) {
+						commonByteArray_SEMINAR_display_file = new byte[1024];
+					} else {
+						commonByteArray_SEMINAR_display_file = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_SEMINAR_display_file, 0, length);
+				strReturn = new String(commonByteArray_SEMINAR_display_file, 0,
+						length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos)
+				throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		public void readData(ObjectInputStream dis) {
+
+			synchronized (commonByteArrayLock_SEMINAR_display_file) {
+
+				try {
+
+					int length = 0;
+
+					this.line = readString(dis);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+
+				}
+
+			}
+
+		}
+
+		public void writeData(ObjectOutputStream dos) {
+			try {
+
+				// String
+
+				writeString(this.line, dos);
+
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			}
+
+		}
+
+		public String toString() {
+
+			StringBuilder sb = new StringBuilder();
+			sb.append(super.toString());
+			sb.append("[");
+			sb.append("line=" + line);
+			sb.append("]");
+
+			return sb.toString();
+		}
+
+		/**
+		 * Compare keys
+		 */
+		public int compareTo(row2Struct other) {
+
+			int returnValue = -1;
+
+			return returnValue;
+		}
+
+		private int checkNullsAndCompare(Object object1, Object object2) {
+			int returnValue = 0;
+			if (object1 instanceof Comparable && object2 instanceof Comparable) {
+				returnValue = ((Comparable) object1).compareTo(object2);
+			} else if (object1 != null && object2 != null) {
+				returnValue = compareStrings(object1.toString(),
+						object2.toString());
+			} else if (object1 == null && object2 != null) {
+				returnValue = 1;
+			} else if (object1 != null && object2 == null) {
+				returnValue = -1;
+			} else {
+				returnValue = 0;
+			}
+
+			return returnValue;
+		}
+
+		private int compareStrings(String string1, String string2) {
+			return string1.compareTo(string2);
+		}
 
 	}
 
@@ -452,6 +584,32 @@ public class display_file implements TalendJob {
 				globalResumeTicket = true;
 
 				row1Struct row1 = new row1Struct();
+				row1Struct row2 = row1;
+
+				/**
+				 * [tFileOutputRaw_1 begin ] start
+				 */
+
+				ok_Hash.put("tFileOutputRaw_1", false);
+				start_Hash.put("tFileOutputRaw_1", System.currentTimeMillis());
+
+				currentComponent = "tFileOutputRaw_1";
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null) {
+
+						runStat.updateStatOnConnection("row2" + iterateId, 0, 0);
+
+					}
+				}
+
+				int tos_count_tFileOutputRaw_1 = 0;
+
+				String fileName_tFileOutputRaw_1 = "C:/SEMINAR_PROJECT/file_output_de_merde.txt";
+
+				/**
+				 * [tFileOutputRaw_1 begin ] stop
+				 */
 
 				/**
 				 * [tLogRow_1 begin ] start
@@ -471,14 +629,6 @@ public class display_file implements TalendJob {
 				}
 
 				int tos_count_tLogRow_1 = 0;
-
-				class BytesLimit65535_tLogRow_1 {
-					public void limitLog4jByte() throws Exception {
-
-					}
-				}
-
-				new BytesLimit65535_tLogRow_1().limitLog4jByte();
 
 				// /////////////////////
 
@@ -504,14 +654,6 @@ public class display_file implements TalendJob {
 				currentComponent = "tFileInputFullRow_1";
 
 				int tos_count_tFileInputFullRow_1 = 0;
-
-				class BytesLimit65535_tFileInputFullRow_1 {
-					public void limitLog4jByte() throws Exception {
-
-					}
-				}
-
-				new BytesLimit65535_tFileInputFullRow_1().limitLog4jByte();
 
 				org.talend.fileprocess.FileInputDelimited fid_tFileInputFullRow_1 = null;
 
@@ -595,6 +737,8 @@ public class display_file implements TalendJob {
 
 						// /////////////////////
 
+						row2 = row1;
+
 						tos_count_tLogRow_1++;
 
 						/**
@@ -609,6 +753,102 @@ public class display_file implements TalendJob {
 
 						/**
 						 * [tLogRow_1 process_data_begin ] stop
+						 */
+
+						/**
+						 * [tFileOutputRaw_1 main ] start
+						 */
+
+						currentComponent = "tFileOutputRaw_1";
+
+						// row2
+						// row2
+
+						if (execStat) {
+							runStat.updateStatOnConnection("row2" + iterateId,
+									1, 1);
+						}
+
+						try {
+							Object content_tFileOutputRaw_1 = row2.line;
+
+							if (content_tFileOutputRaw_1 != null) {
+								java.io.File file_tFileOutputRaw_1 = new java.io.File(
+										fileName_tFileOutputRaw_1);
+								java.io.File parentFile_tFileOutputRaw_1 = file_tFileOutputRaw_1
+										.getParentFile();
+								if (parentFile_tFileOutputRaw_1 != null
+										&& !parentFile_tFileOutputRaw_1
+												.exists()) {
+									parentFile_tFileOutputRaw_1.mkdirs();
+								}
+								if (content_tFileOutputRaw_1 instanceof String) {
+									org.apache.commons.io.FileUtils
+											.writeStringToFile(
+													file_tFileOutputRaw_1,
+													content_tFileOutputRaw_1
+															.toString(),
+													"ISO-8859-15");
+								} else if (content_tFileOutputRaw_1 instanceof byte[]) {
+									org.apache.commons.io.FileUtils
+											.writeByteArrayToFile(
+													file_tFileOutputRaw_1,
+													(byte[]) content_tFileOutputRaw_1);
+								} else if (content_tFileOutputRaw_1 instanceof java.io.InputStream) {
+									java.io.InputStream fis_tFileOutputRaw_1 = (java.io.InputStream) content_tFileOutputRaw_1;
+									java.io.FileOutputStream fos_tFileOutputRaw_1 = new java.io.FileOutputStream(
+											file_tFileOutputRaw_1);
+									byte[] buffer_tFileOutputRaw_1 = new byte[65536];
+									int nb_tFileOutputRaw_1 = 0;
+									while (true) {
+										nb_tFileOutputRaw_1 = fis_tFileOutputRaw_1
+												.read(buffer_tFileOutputRaw_1);
+										if (nb_tFileOutputRaw_1 == -1) {
+											break;
+										}
+										fos_tFileOutputRaw_1.write(
+												buffer_tFileOutputRaw_1, 0,
+												nb_tFileOutputRaw_1);
+									}
+									fis_tFileOutputRaw_1.close();
+									fos_tFileOutputRaw_1.close();
+								} else {
+									org.apache.commons.io.FileUtils
+											.writeStringToFile(
+													file_tFileOutputRaw_1,
+													content_tFileOutputRaw_1
+															.toString(),
+													"ISO-8859-15");
+								}
+							}
+						} catch (java.lang.Exception e_tFileOutputRaw_1) {
+							System.err.println(e_tFileOutputRaw_1);
+						}
+
+						tos_count_tFileOutputRaw_1++;
+
+						/**
+						 * [tFileOutputRaw_1 main ] stop
+						 */
+
+						/**
+						 * [tFileOutputRaw_1 process_data_begin ] start
+						 */
+
+						currentComponent = "tFileOutputRaw_1";
+
+						/**
+						 * [tFileOutputRaw_1 process_data_begin ] stop
+						 */
+
+						/**
+						 * [tFileOutputRaw_1 process_data_end ] start
+						 */
+
+						currentComponent = "tFileOutputRaw_1";
+
+						/**
+						 * [tFileOutputRaw_1 process_data_end ] stop
 						 */
 
 						/**
@@ -679,6 +919,29 @@ public class display_file implements TalendJob {
 				 * [tLogRow_1 end ] stop
 				 */
 
+				/**
+				 * [tFileOutputRaw_1 end ] start
+				 */
+
+				currentComponent = "tFileOutputRaw_1";
+
+				globalMap.put("tFileOutputRaw_1_FILENAME_PATH",
+						fileName_tFileOutputRaw_1);
+
+				if (execStat) {
+					if (resourceMap.get("inIterateVComp") == null
+							|| !((Boolean) resourceMap.get("inIterateVComp"))) {
+						runStat.updateStatOnConnection("row2" + iterateId, 2, 0);
+					}
+				}
+
+				ok_Hash.put("tFileOutputRaw_1", true);
+				end_Hash.put("tFileOutputRaw_1", System.currentTimeMillis());
+
+				/**
+				 * [tFileOutputRaw_1 end ] stop
+				 */
+
 			}// end the resume
 
 		} catch (java.lang.Exception e) {
@@ -714,6 +977,16 @@ public class display_file implements TalendJob {
 
 				/**
 				 * [tLogRow_1 finally ] stop
+				 */
+
+				/**
+				 * [tFileOutputRaw_1 finally ] start
+				 */
+
+				currentComponent = "tFileOutputRaw_1";
+
+				/**
+				 * [tFileOutputRaw_1 finally ] stop
 				 */
 
 			} catch (java.lang.Exception e) {
@@ -1085,6 +1358,6 @@ public class display_file implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 31802 characters generated by Talend Open Studio for Data Integration on the
- * 16 décembre 2018 17:43:28 CET
+ * 38763 characters generated by Talend Open Studio for Data Integration on the
+ * 16 décembre 2018 17:55:35 CET
  ************************************************************************************************/
