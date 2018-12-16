@@ -561,8 +561,8 @@
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.AddSchemaDatePatternUseForImpalaTask",
-    "breaks" : "6.4.2",
-    "version" : "6.4.2",
+    "breaks" : "7.0.0",
+    "version" : "7.1.1",
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.AddSchemaDefaultValue4tFileInputDelimited",
@@ -588,7 +588,7 @@
     "id" : "org.talend.repository.model.migration.AddTypeNameInConnection",
     "breaks" : "7.0.1",
     "version" : "7.0.2",
-    "status" : "noimpact"
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask",
     "breaks" : "5.1.1",
@@ -1636,7 +1636,6 @@
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.UpdateGitIgnoreMigrationTask",
-    "breaks" : "5.1.9",
     "version" : "7.0.1",
     "status" : "ok"
   }, {
@@ -1676,7 +1675,6 @@
     "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.UpdateToJava8VersionMigrationTask",
-    "breaks" : "5.1.9",
     "version" : "6.5.1",
     "status" : "ok"
   }, {
@@ -1758,7 +1756,7 @@
     "id" : "org.talend.repository.model.migration.spark.UseSqlDateTypeInDataframesTask",
     "breaks" : "7.1.0",
     "version" : "7.1.1",
-    "status" : "noimpact"
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.upgradetRunJobRemoveQuotesMigrationTask",
     "breaks" : "5.1.1",

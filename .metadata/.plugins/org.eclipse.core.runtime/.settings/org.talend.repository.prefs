@@ -1,2 +1,2 @@
-TOS_Jobs_Records={"SEMINAR"\:{"projects"\:{"PROCESS"\:{"details"\:{"components"\:[{"component_name"\:"tFileInputFullRow","count"\:1},{"component_name"\:"tLogRow","count"\:1}],"nb.components"\:2,"nb.contextVars"\:0},"nb"\:1}},"type"\:"local"}}
+TOS_Jobs_Records={"SEMINAR"\:{"projects"\:{"JSON"\:{"nb"\:1,"nb.used"\:1},"PROCESS"\:{"details"\:{"components"\:[{"component_name"\:"tFileInputFullRow","count"\:1},{"component_name"\:"tLogRow","count"\:3},{"component_name"\:"tFileOutputRaw","count"\:1},{"component_name"\:"tFileInputJSON","count"\:1},{"component_name"\:"tFileInputRaw","count"\:1},{"component_name"\:"tMap","count"\:1}],"nb.components"\:8,"nb.contextVars"\:0},"nb"\:3}},"type"\:"local"}}
 eclipse.preferences.version=1
