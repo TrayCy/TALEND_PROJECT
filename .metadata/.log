@@ -1,0 +1,221 @@
+!SESSION 2018-12-16 17:29:32.261 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\\SEMINAR_PROJECT\\TALEND_PROJECT -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2018-12-16 17:29:34.078
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2018-12-16 17:29:34.098
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:30:05.923
+!MESSAGE 2018-12-16 17:30:05,916 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.throttling.ThrottledInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:30:05.936
+!MESSAGE 2018-12-16 17:30:05,935 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.lock.LockedInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:30:05.940
+!MESSAGE 2018-12-16 17:30:05,939 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.future.FutureableInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:30:07.468
+!MESSAGE 2018-12-16 17:30:07,467 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.cxf.jaxrs.impl.ConfigurableImpl.doRegister] Null, empty or invalid contracts specified for brave.jaxrs2.TracingClientFilter@39de338; ignoring.
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:30:10.909
+!MESSAGE 2018-12-16 17:30:10,908 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEMINAR_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:30:10.914
+!MESSAGE 2018-12-16 17:30:10,913 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEMINAR_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:30:10.918
+!MESSAGE 2018-12-16 17:30:10,917 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /SEMINAR_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:30:10.920
+!MESSAGE 2018-12-16 17:30:10,919 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /SEMINAR_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:30:20.801
+!MESSAGE 2018-12-16 17:30:20,800 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à SEMINAR
+
+!SESSION 2018-12-16 17:33:50.620 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2018-12-16 17:33:52.466
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2018-12-16 17:33:52.474
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-16 17:33:55.244
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:34:01.912
+!MESSAGE 2018-12-16 17:34:01,901 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:34:13.371
+!MESSAGE 2018-12-16 17:34:13,370 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.throttling.ThrottledInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:34:13.386
+!MESSAGE 2018-12-16 17:34:13,386 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.lock.LockedInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:34:13.390
+!MESSAGE 2018-12-16 17:34:13,390 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.future.FutureableInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2018-12-16 17:34:15.640
+!MESSAGE 2018-12-16 17:34:15,639 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.cxf.jaxrs.impl.ConfigurableImpl.doRegister] Null, empty or invalid contracts specified for brave.jaxrs2.TracingClientFilter@274e21ca; ignoring.
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:34:17.706
+!MESSAGE 2018-12-16 17:34:17,706 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à SEMINAR
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:34:21.637
+!MESSAGE 2018-12-16 17:34:21,636 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:34:29.429
+!MESSAGE 2018-12-16 17:34:29,428 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:34:29.433
+!MESSAGE 2018-12-16 17:34:29,432 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s "C:\Program Files\TOS_DI-20180411_1414-V7.0.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -P !ci-builder
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:35:05.857
+!MESSAGE 2018-12-16 17:35:05,838 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:35:05.893
+!MESSAGE 2018-12-16 17:35:05,892 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s "C:\Program Files\TOS_DI-20180411_1414-V7.0.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -P !ci-builder
+
+
+!ENTRY org.eclipse.ui 2 2 2018-12-16 17:35:21.980
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:42:00.638
+!MESSAGE 2018-12-16 17:42:00,638 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:42:01.332
+!MESSAGE 2018-12-16 17:42:01,331 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:43:28.557
+!MESSAGE 2018-12-16 17:43:28,556 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:43:29.808
+!MESSAGE 2018-12-16 17:43:29,807 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:43:30.377
+!MESSAGE 2018-12-16 17:43:30,376 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_161/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Display/display_file_0.1/target/classpath.jar; seminar.display_file_0_1.display_file --context=Default --stat_port=3620 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2018-12-16 17:43:58.942
+!MESSAGE 2018-12-16 17:43:58,942 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - Suppression physique de [[repository.process] display] par user@talend.com
+
+
+!ENTRY org.talend.platform.logging 4 0 2018-12-16 17:44:50.196
+!MESSAGE 2018-12-16 17:44:50,194 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2018-12-16 17:44:50.199
+!MESSAGE 2018-12-16 17:44:50,198 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
