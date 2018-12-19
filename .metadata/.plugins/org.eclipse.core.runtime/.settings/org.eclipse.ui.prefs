@@ -1,9 +1,10 @@
 CLOSE_EDITORS_ON_EXIT=true
-LOGINCOUNT=3
+LOGINCOUNT=14
 NOT_SHOW_ONBOARDING_AT_STARTUP=true
-PREFERENCE_TALEND_LOGON_STARTUP_TIMES=3
+PREFERENCE_TALEND_LOGON_STARTUP_TIMES=14
 eclipse.preferences.version=1
 lastUSedProject=SEMINAR
+last_started_project_type=NO_TYPE
 logonDialog.alwaysAskMeAtStartUp=true
 presentationFactoryId=org.talend.rcp.presentationfactory
 showIntro=false

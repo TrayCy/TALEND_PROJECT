@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_X_vVgAMfEemV84zn_0l4Mg" name="file_stat" dataPackage="_X_1cTQMfEemV84zn_0l4Mg" JSONFilePath="C:/SEMINAR_PROJECT/files/elasticdump-28.11.2018-11.12.2018/file_stat_autor_2018.11.28.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_X_vVgQMfEemV84zn_0l4Mg" LimitBoucle="50" AbsoluteXPathQuery="$[*]">
+      <schemaTargets xmi:id="_X_vVggMfEemV84zn_0l4Mg" RelativeXPathQuery="_index" TagName="_index"/>
+      <schemaTargets xmi:id="_X_vVgwMfEemV84zn_0l4Mg" RelativeXPathQuery="_type" TagName="_type"/>
+      <schemaTargets xmi:id="_X_1cIAMfEemV84zn_0l4Mg" RelativeXPathQuery="_id" TagName="_id"/>
+      <schemaTargets xmi:id="_X_1cIQMfEemV84zn_0l4Mg" RelativeXPathQuery="_score" TagName="_score"/>
+      <schemaTargets xmi:id="_X_1cIgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.response_code" TagName="response_code"/>
+      <schemaTargets xmi:id="_X_1cIwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.target_environment" TagName="target_environment"/>
+      <schemaTargets xmi:id="_X_1cJAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.threed_status" TagName="threed_status"/>
+      <schemaTargets xmi:id="_X_1cJQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.pid" TagName="pid"/>
+      <schemaTargets xmi:id="_X_1cJgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.authorization_eci" TagName="authorization_eci"/>
+      <schemaTargets xmi:id="_X_1cJwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.merchant_id" TagName="merchant_id"/>
+      <schemaTargets xmi:id="_X_1cKAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.type" TagName="source_type"/>
+      <schemaTargets xmi:id="_X_1cKQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.client_id" TagName="client_id"/>
+      <schemaTargets xmi:id="_X_1cKgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.currency_code" TagName="currency_code"/>
+      <schemaTargets xmi:id="_X_1cKwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.payment_means_brand" TagName="payment_means_brand"/>
+      <schemaTargets xmi:id="_X_1cLAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.path" TagName="source_path"/>
+      <schemaTargets xmi:id="_X_1cLQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.trace_type" TagName="trace_type"/>
+      <schemaTargets xmi:id="_X_1cLgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.date_num" TagName="date_num"/>
+      <schemaTargets xmi:id="_X_1cLwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.original_amount" TagName="original_amount"/>
+      <schemaTargets xmi:id="_X_1cMAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.@version" TagName="source_version"/>
+      <schemaTargets xmi:id="_X_1cMQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.host" TagName="host"/>
+      <schemaTargets xmi:id="_X_1cMgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.card_iin" TagName="card_iin"/>
+      <schemaTargets xmi:id="_X_1cMwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.client_alias" TagName="client_alias"/>
+      <schemaTargets xmi:id="_X_1cNAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.acquirer_response_code" TagName="acquirer_response_code"/>
+      <schemaTargets xmi:id="_X_1cNQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.acquirer_response_delay" TagName="acquirer_response_delay"/>
+      <schemaTargets xmi:id="_X_1cNgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.timestamp" TagName="source_timestamp"/>
+      <schemaTargets xmi:id="_X_1cNwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.transaction_id" TagName="transaction_id"/>
+      <schemaTargets xmi:id="_X_1cOAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.amount" TagName="amount"/>
+      <schemaTargets xmi:id="_X_1cOQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.authorization_id" TagName="authorization_id"/>
+      <schemaTargets xmi:id="_X_1cOgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.service_name" TagName="service_name"/>
+      <schemaTargets xmi:id="_X_1cOwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.target_authorization_center" TagName="target_authorization_center"/>
+      <schemaTargets xmi:id="_X_1cPAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.native_response_code" TagName="native_response_code"/>
+      <schemaTargets xmi:id="_X_1cPQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.message" TagName="source_message"/>
+      <schemaTargets xmi:id="_X_1cPgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.tags[*]" TagName="source_tags"/>
+      <schemaTargets xmi:id="_X_1cPwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.operation_name" TagName="operation_name"/>
+      <schemaTargets xmi:id="_X_1cQAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.merchant_alias" TagName="merchant_alias"/>
+      <schemaTargets xmi:id="_X_1cQQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.@timestamp" TagName="source_timestamp2"/>
+      <schemaTargets xmi:id="_X_1cQgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.connector" TagName="source_connector"/>
+      <schemaTargets xmi:id="_X_1cQwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.application" TagName="source_application"/>
+      <schemaTargets xmi:id="_X_1cRAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.service" TagName="source_service"/>
+      <schemaTargets xmi:id="_X_1cRQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.merchant_country" TagName="merchant_country"/>
+      <schemaTargets xmi:id="_X_1cRgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.csc_indicator" TagName="csc_indicator"/>
+      <schemaTargets xmi:id="_X_1cRwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.time" TagName="source_time"/>
+      <schemaTargets xmi:id="_X_1cSAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.acquirer_response_label" TagName="acquirer_response_label"/>
+      <schemaTargets xmi:id="_X_1cSQMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.real_authorization_center" TagName="real_authorization_center"/>
+      <schemaTargets xmi:id="_X_1cSgMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.response_label" TagName="response_label"/>
+      <schemaTargets xmi:id="_X_1cSwMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.acquirer_message" TagName="acquirer_message"/>
+      <schemaTargets xmi:id="_X_1cTAMfEemV84zn_0l4Mg" RelativeXPathQuery="_source.network_data" TagName="network_data"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_X_1cTQMfEemV84zn_0l4Mg" name="default" dataManager="_X_vVgAMfEemV84zn_0l4Mg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X_1cTgMfEemV84zn_0l4Mg" id="_qo2QkAMdEemV84zn_0l4Mg" label="metadata_file_stat">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cTwMfEemV84zn_0l4Mg" label="_index" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cUAMfEemV84zn_0l4Mg" label="_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cUQMfEemV84zn_0l4Mg" label="_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cUgMfEemV84zn_0l4Mg" label="_score" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cUwMfEemV84zn_0l4Mg" label="response_code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cVAMfEemV84zn_0l4Mg" label="target_environment" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cVQMfEemV84zn_0l4Mg" label="threed_status" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cVgMfEemV84zn_0l4Mg" label="pid" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cVwMfEemV84zn_0l4Mg" label="authorization_eci" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cWAMfEemV84zn_0l4Mg" label="merchant_id" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cWQMfEemV84zn_0l4Mg" label="source_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cWgMfEemV84zn_0l4Mg" label="client_id" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cWwMfEemV84zn_0l4Mg" label="currency_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cXAMfEemV84zn_0l4Mg" label="payment_means_brand" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cXQMfEemV84zn_0l4Mg" label="source_path" length="84" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cXgMfEemV84zn_0l4Mg" label="trace_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cXwMfEemV84zn_0l4Mg" label="date_num" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cYAMfEemV84zn_0l4Mg" label="original_amount" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cYQMfEemV84zn_0l4Mg" label="source_version" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cYgMfEemV84zn_0l4Mg" label="host" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cYwMfEemV84zn_0l4Mg" label="card_iin" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cZAMfEemV84zn_0l4Mg" label="client_alias" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cZQMfEemV84zn_0l4Mg" label="acquirer_response_code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cZgMfEemV84zn_0l4Mg" label="acquirer_response_delay" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cZwMfEemV84zn_0l4Mg" label="source_timestamp" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1caAMfEemV84zn_0l4Mg" label="transaction_id" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1caQMfEemV84zn_0l4Mg" label="amount" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cagMfEemV84zn_0l4Mg" label="authorization_id" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cawMfEemV84zn_0l4Mg" label="service_name" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cbAMfEemV84zn_0l4Mg" label="target_authorization_center" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cbQMfEemV84zn_0l4Mg" label="native_response_code" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cbgMfEemV84zn_0l4Mg" label="source_message" length="493" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cbwMfEemV84zn_0l4Mg" label="source_tags" length="116" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ccAMfEemV84zn_0l4Mg" label="operation_name" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ccQMfEemV84zn_0l4Mg" label="merchant_alias" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ccgMfEemV84zn_0l4Mg" label="source_timestamp2" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ccwMfEemV84zn_0l4Mg" label="source_connector" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cdAMfEemV84zn_0l4Mg" label="source_application" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cdQMfEemV84zn_0l4Mg" label="source_service" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cdgMfEemV84zn_0l4Mg" label="merchant_country" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cdwMfEemV84zn_0l4Mg" label="csc_indicator" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ceAMfEemV84zn_0l4Mg" label="source_time" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1ceQMfEemV84zn_0l4Mg" label="acquirer_response_label" length="51" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cegMfEemV84zn_0l4Mg" label="real_authorization_center" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cewMfEemV84zn_0l4Mg" label="response_label" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cfAMfEemV84zn_0l4Mg" label="acquirer_message" length="266" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X_1cfQMfEemV84zn_0l4Mg" label="network_data" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,3 +1,0 @@
-$fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-cd $fileDir
-java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' '-Dfile.encoding=UTF-8' -cp '.;../lib/routines.jar;../lib/commons-io-2.4.jar;../lib/dom4j-1.6.1.jar;../lib/log4j-1.2.17.jar;../lib/talend_file_enhanced_20070724.jar;display_file_0_1.jar;' seminar.display_file_0_1.display_file  %*

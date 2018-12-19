@@ -10,8 +10,11 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
-    <module>jobs/process/wl_0.1</module>
-    <module>jobs/process/json_0.1</module>
+    <module>jobs/process/Files/Unzip/unzip_files_0.1</module>
+    <module>jobs/process/Files/Unzip/remove_files_0.1</module>
+    <module>jobs/process/Files/Transform/replace_files_0.1</module>
+    <module>jobs/process/Files/Transform/tab_files_0.1</module>
+    <module>jobs/process/Files/Database/display_stat_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SEMINAR</talend.project.name>
