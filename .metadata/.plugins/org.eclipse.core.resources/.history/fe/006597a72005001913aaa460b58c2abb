@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_nl5ZMAUbEemudItD3gXkAA" name="CTSeminar2018" id="_RC8wsAUbEemudItD3gXkAA" label="CTSeminar2018" dataPackage="_nsvBAAUbEemudItD3gXkAA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://PC-CUBI:1433/CTSeminar2018;" dbVersionString="JTDS" Port="1433" Username="sa" Password="45E2VbhO68eNaL9NZDEIUg==" ServerName="PC-CUBI" DatasourceName="" FileFieldName="" SID="CTSeminar2018" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_nl6nUAUbEemudItD3gXkAA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_nm2bcAUbEemudItD3gXkAA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_nm77AAUbEemudItD3gXkAA" tag="Status" value=""/>
+    <taggedValue xmi:id="_nm8iEAUbEemudItD3gXkAA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_nm8iEQUbEemudItD3gXkAA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_nm8iEgUbEemudItD3gXkAA" tag="Description" value=""/>
+    <taggedValue xmi:id="_nm8iEwUbEemudItD3gXkAA" tag="Author" value=""/>
+    <taggedValue xmi:id="_nm8iFAUbEemudItD3gXkAA" tag="otherParameter"/>
+    <taggedValue xmi:id="_noTM8AUbEemudItD3gXkAA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_noTM8QUbEemudItD3gXkAA" tag="DB ProductVersion" value="14.00.2002"/>
+    <taggedValue xmi:id="_noTM8gUbEemudItD3gXkAA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_nl6nUQUbEemudItD3gXkAA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_HnGIAAUgEemudItD3gXkAA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_nsvBAAUbEemudItD3gXkAA" name="CTSeminar2018" dataManager="_nl5ZMAUbEemudItD3gXkAA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_nsvoGQUbEemudItD3gXkAA" name="dbo">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_snBwwAUbEemudItD3gXkAA" name="stat_raw" id="_smch8AUbEemudItD3gXkAA" label="stat_raw" tableType="TABLE"/>
+    </ownedElement>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_oAUgEemudItD3gXkAA" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_oQUgEemudItD3gXkAA" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_ogUgEemudItD3gXkAA" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_owUgEemudItD3gXkAA" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_pAUgEemudItD3gXkAA" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_pQUgEemudItD3gXkAA" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_pgUgEemudItD3gXkAA" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_pwUgEemudItD3gXkAA" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_qAUgEemudItD3gXkAA" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_qQUgEemudItD3gXkAA" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_qgUgEemudItD3gXkAA" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_qwUgEemudItD3gXkAA" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

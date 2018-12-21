@@ -1,4 +1,4 @@
-Palette.RecentlyUsed.ComponentsList=tLogRow\:1545176940231,tFileInputJSON\:1545176933642,tMap\:1545172031909,tFileInputRaw\:1545171939925,tFileOutputDelimited\:1545171660937,tReplace\:1545171566052,tFileInputFullRow\:1545171543941,tFileOutputJSON\:1545170067097,tJava\:1545168119036,tAggregateRow\:1545166634265,tFileRowCount\:1545165393272,tSortRow\:1545164848222,tSampleRow\:1545163954628,tFileList\:1545163654373,tFileCopy\:1545162963392,tSystem\:1545159714512,tBoxPut\:1545157447579,tFileExist\:1545156893533,tFileDelete\:1545156083818,tFileUnarchive\:1545151543152
+Palette.RecentlyUsed.ComponentsList=tFileList\:1545397526872,tDBOutput\:1545395319660,tFileDelete\:1545156083818,tMap\:1545395554688,tFileInputJSON\:1545395277289,tLogRow\:1545176940231,tFileInputRaw\:1545171939925,tFileOutputDelimited\:1545171660937,tReplace\:1545171566052,tFileInputFullRow\:1545171543941,tFileOutputJSON\:1545170067097,tJava\:1545168119036,tAggregateRow\:1545166634265,tFileRowCount\:1545165393272,tSortRow\:1545164848222,tSampleRow\:1545163954628,tFileCopy\:1545162963392,tSystem\:1545159714512,tBoxPut\:1545157447579,tFileExist\:1545156893533,tFileUnarchive\:1545151543152
 TalendEditorPaletteFactory.Size=125
 TalendEditorPaletteFactory.StateAS400=1
 TalendEditorPaletteFactory.StateAccess=1
@@ -13,6 +13,7 @@ TalendEditorPaletteFactory.StateBig\ Data=0
 TalendEditorPaletteFactory.StateBlob=1
 TalendEditorPaletteFactory.StateBonita=1
 TalendEditorPaletteFactory.StateBox=1
+TalendEditorPaletteFactory.StateBusiness\ Intelligence=0
 TalendEditorPaletteFactory.StateCentricCRM=1
 TalendEditorPaletteFactory.StateChamps=1
 TalendEditorPaletteFactory.StateCombined\ SQL=1

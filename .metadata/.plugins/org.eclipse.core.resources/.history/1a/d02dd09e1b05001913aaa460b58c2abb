@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_nl5ZMAUbEemudItD3gXkAA" name="stat_raw" id="_RC8wsAUbEemudItD3gXkAA" label="stat_raw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://PC-CUBI:1433/;" dbVersionString="JTDS" Port="1433" Username="sa" Password="45E2VbhO68eNaL9NZDEIUg==" ServerName="PC-CUBI" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_nl6nUAUbEemudItD3gXkAA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_nl6nUQUbEemudItD3gXkAA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+</TalendMetadata:DatabaseConnection>
