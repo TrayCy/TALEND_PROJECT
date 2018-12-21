@@ -1,7 +1,7 @@
 A partir du fichier elasticdump.7z :
 
 1) Dézipper dans C:\SEMINAR_PROJECT\files et renommez le en 
-elasticdump-yy.mm.aaaa-yy2.mm2.aaaa2
+elasticdump-jj.mm.aaaa-jj2.mm2.aaaa2
 
 2) Ouvrir Talend et lancer le job "Unzip/unzip_files" avec le chemin de votre dossier /!\ 
 (ici dossier 28nov-11déc)
