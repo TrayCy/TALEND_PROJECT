@@ -214,7 +214,13 @@
 			<outputDirectory>lib</outputDirectory>
 			<includes>
 				<include>org.example.test.code:routines</include>
+				<include>org.talend.libraries:jakarta-oro-2.0.8</include>
 				<include>org.talend.libraries:talendcsv</include>
+				<include>org.talend.libraries:commons-compress-1.10</include>
+				<include>org.talend.libraries:talendzip</include>
+				<include>org.talend.libraries:checkArchive-1.1-20171121</include>
+				<include>org.talend.libraries:zip4j_1.3.1</include>
+				<include>org.talend.libraries:talend_file_enhanced_20070724</include>
 			</includes>
 			<!-- without version for talend libraries -->
 			<outputFileNameMapping>${artifact.artifactId}.${artifact.extension}
@@ -227,6 +233,7 @@
 				<include>commons-io:commons-io</include>
 				<include>dom4j:dom4j</include>
 				<include>log4j:log4j</include>
+				<include>org.apache.ant:ant</include>
 			</includes>
 			<useProjectArtifact>false</useProjectArtifact>
 		</dependencySet>

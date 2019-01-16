@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\defaultfolder"/>
+  </context>
+  <context confirmationNeeded="false" name="dump12_12_2018_to_17_12_2018">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-12.12.2018-17.12.2018"/>
+  </context>
+  <context confirmationNeeded="false" name="dump28_11_2018_to_11_12_2018">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-28.11.2018-11.12.2018"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -105,14 +113,14 @@
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/SEMINAR_PROJECT/files/elasticdump-28.11.2018-11.12.2018&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.datafolder"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
     <elementParameter field="CHECK" name="ERROR" value="false"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;file_*&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;file_stat_*.json&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -730,7 +738,7 @@
         <mapperTableEntries name="target_environment" expression="row1.target_environment " type="id_String" nullable="true"/>
         <mapperTableEntries name="threed_status" expression="row1.threed_status " type="id_String" nullable="true"/>
         <mapperTableEntries name="pid" expression="row1.pid " type="id_String" nullable="true"/>
-        <mapperTableEntries name="authorization_eci" expression="row1.authorization_eci == null ? null : Integer.parseInt(row1.authorization_eci)" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="authorization_eci" expression="row1.authorization_eci == null || row1.authorization_eci.matches(&quot;\\s*&quot;) ? null : Integer.parseInt(row1.authorization_eci) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="merchant_id" expression="row1.merchant_id == null ? null : Long.parseLong(row1.merchant_id) " type="id_Long" nullable="true"/>
         <mapperTableEntries name="client_id" expression="row1.client_id == null? null : Long.parseLong(row1.client_id) " type="id_Long" nullable="true"/>
         <mapperTableEntries name="currency_code" expression="row1.currency_code " type="id_String" nullable="true"/>
@@ -829,7 +837,7 @@
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="vsEXId21GU7z+dmHBsb8vShsrE9bZhGa"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;stat_raw&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
@@ -1057,6 +1065,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stat_raw" name="tDBOutput_1">
       <column key="false" length="100" name="index" nullable="true" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>

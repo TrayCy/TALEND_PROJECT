@@ -117,8 +117,19 @@ public class import_stat_raw implements TalendJob {
 
 		public void synchronizeContext() {
 
+			if (datafolder != null) {
+
+				this.setProperty("datafolder", datafolder.toString());
+
+			}
+
 		}
 
+		public String datafolder;
+
+		public String getDatafolder() {
+			return this.datafolder;
+		}
 	}
 
 	private ContextProperties context = new ContextProperties();
@@ -1880,10 +1891,10 @@ public class import_stat_raw implements TalendJob {
 
 				int tos_count_tFileList_1 = 0;
 
-				String directory_tFileList_1 = "C:/SEMINAR_PROJECT/files/elasticdump-28.11.2018-11.12.2018";
+				String directory_tFileList_1 = context.datafolder;
 				final java.util.List<String> maskList_tFileList_1 = new java.util.ArrayList<String>();
 				final java.util.List<java.util.regex.Pattern> patternList_tFileList_1 = new java.util.ArrayList<java.util.regex.Pattern>();
-				maskList_tFileList_1.add("file_*");
+				maskList_tFileList_1.add("file_stat_*.json");
 				for (final String filemask_tFileList_1 : maskList_tFileList_1) {
 					String filemask_compile_tFileList_1 = filemask_tFileList_1;
 
@@ -2097,6 +2108,27 @@ public class import_stat_raw implements TalendJob {
 					}
 					int count_tDBOutput_1 = 0;
 
+					boolean whetherExist_tDBOutput_1 = false;
+					try (java.sql.Statement isExistStmt_tDBOutput_1 = conn_tDBOutput_1
+							.createStatement()) {
+						try {
+							isExistStmt_tDBOutput_1
+									.execute("SELECT TOP 1 1 FROM ["
+											+ tableName_tDBOutput_1 + "]");
+							whetherExist_tDBOutput_1 = true;
+						} catch (java.lang.Exception e) {
+							whetherExist_tDBOutput_1 = false;
+						}
+					}
+					if (!whetherExist_tDBOutput_1) {
+						try (java.sql.Statement stmtCreate_tDBOutput_1 = conn_tDBOutput_1
+								.createStatement()) {
+							stmtCreate_tDBOutput_1
+									.execute("CREATE TABLE ["
+											+ tableName_tDBOutput_1
+											+ "]([index] NCHAR(100)  ,[type] NCHAR(100)  ,[id] NCHAR(100)   not null ,[score] INT ,[response_code] INT ,[target_environment] NCHAR(100)  ,[threed_status] NCHAR(100)  ,[pid] NCHAR(100)  ,[authorization_eci] INT ,[merchant_id] BIGINT ,[client_id] BIGINT ,[currency_code] NCHAR(100)  ,[payment_means_brand] NCHAR(100)  ,[path] NCHAR(100)  ,[trace_type] NCHAR(100)  ,[date_num] INT ,[original_amount] INT ,[version] INT ,[host] NCHAR(100)  ,[card_iin] NCHAR(100)  ,[client_alias] BIGINT ,[acquirer_response_code] INT ,[acquirer_response_delay] INT ,[timestamp] NCHAR(100)  ,[transaction_id] NCHAR(100)  ,[service_name] NCHAR(100)  ,[target_authorization_center] INT ,[native_response_code] NCHAR(100)  ,[operation_name] NCHAR(100)  ,[merchant_alias] BIGINT ,[timestamp2] NCHAR(100)  ,[connector] NCHAR(100)  ,[application] NCHAR(100)  ,[service] INT ,[merchant_country] NCHAR(100)  ,[csc_indicator] NCHAR(100)  ,[time] INT ,[acquirer_response_label] NCHAR(100)  ,[real_authorization_center] NCHAR(100)  ,[response_label] NCHAR(100)  ,primary key([id]))");
+						}
+					}
 					String insert_tDBOutput_1 = "INSERT INTO ["
 							+ tableName_tDBOutput_1
 							+ "] ([index],[type],[id],[score],[response_code],[target_environment],[threed_status],[pid],[authorization_eci],[merchant_id],[client_id],[currency_code],[payment_means_brand],[path],[trace_type],[date_num],[original_amount],[version],[host],[card_iin],[client_alias],[acquirer_response_code],[acquirer_response_delay],[timestamp],[transaction_id],[service_name],[target_authorization_center],[native_response_code],[operation_name],[merchant_alias],[timestamp2],[connector],[application],[service],[merchant_country],[csc_indicator],[time],[acquirer_response_label],[real_authorization_center],[response_label]) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -3063,7 +3095,9 @@ public class import_stat_raw implements TalendJob {
 								row2_tmp.target_environment = row1.target_environment;
 								row2_tmp.threed_status = row1.threed_status;
 								row2_tmp.pid = row1.pid;
-								row2_tmp.authorization_eci = row1.authorization_eci == null ? null
+								row2_tmp.authorization_eci = row1.authorization_eci == null
+										|| row1.authorization_eci
+												.matches("\\s*") ? null
 										: Integer
 												.parseInt(row1.authorization_eci);
 								row2_tmp.merchant_id = row1.merchant_id == null ? null
@@ -3874,7 +3908,7 @@ public class import_stat_raw implements TalendJob {
 	public int portTraces = 4334;
 	public String clientHost;
 	public String defaultClientHost = "localhost";
-	public String contextStr = "Default";
+	public String contextStr = "dump12_12_2018_to_17_12_2018";
 	public boolean isDefaultContext = true;
 	public String pid = "0";
 	public String rootPid = null;
@@ -4004,6 +4038,9 @@ public class import_stat_raw implements TalendJob {
 
 				}
 			}
+			context.setContextType("datafolder", "id_String");
+
+			context.datafolder = (String) context.getProperty("datafolder");
 		} catch (java.io.IOException ie) {
 			System.err.println("Could not load context " + contextStr);
 			ie.printStackTrace();
@@ -4011,6 +4048,10 @@ public class import_stat_raw implements TalendJob {
 
 		// get context value from parent directly
 		if (parentContextMap != null && !parentContextMap.isEmpty()) {
+			if (parentContextMap.containsKey("datafolder")) {
+				context.datafolder = (String) parentContextMap
+						.get("datafolder");
+			}
 		}
 
 		// Resume: init the resumeUtil
@@ -4220,6 +4261,6 @@ public class import_stat_raw implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 119580 characters generated by Talend Open Studio for Data Integration on the
- * 21 décembre 2018 14:13:06 CET
+ * 122199 characters generated by Talend Open Studio for Data Integration on the
+ * 14 janvier 2019 23:19:31 CET
  ************************************************************************************************/

@@ -9077,3 +9077,1114 @@ Contains: Could not delete: C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms\jobs\
 !ENTRY org.talend.platform.logging 1 0 2018-12-21 14:13:07.484
 !MESSAGE 2018-12-21 14:13:07,484 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=Default --stat_port=3736 %*
 
+!SESSION 2019-01-14 21:07:38.902 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-01-14 21:07:41.566
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [334]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-01-14 21:07:41.570
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [336]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-01-14 21:07:46.912
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:07:59.985
+!MESSAGE 2019-01-14 21:07:59,984 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-01-14 21:08:56.381
+!MESSAGE 2019-01-14 21:08:56,380 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.corespi.scanner.AbstractMetaDataDiscovery.getBeanClassesPerBda] Ignoring class [org.talend.sdk.component.server.service.AsciidoctorService] because it could not be loaded: java.lang.NoClassDefFoundError: Lorg/asciidoctor/Options; 
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:09:14.345
+!MESSAGE 2019-01-14 21:09:14,345 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:09:14.347
+!MESSAGE 2019-01-14 21:09:14,347 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:09:27.726
+!MESSAGE 2019-01-14 21:09:27,725 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à SEMINAR
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:09:33.959
+!MESSAGE 2019-01-14 21:09:33,959 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 21:10:39.686
+!MESSAGE 2019-01-14 21:10:39,685 ERROR org.talend.commons.exception.CommonExceptionHandler  - https://talend-update.talend.com/nexus/service/local/lucene/search?repositoryId=libraries&g=org.apache.ws.xmlschema&a=xmlschema-core&from=0&count=200
+
+!STACK 0
+java.lang.Exception: https://talend-update.talend.com/nexus/service/local/lucene/search?repositoryId=libraries&g=org.apache.ws.xmlschema&a=xmlschema-core&from=0&count=200
+	at org.talend.core.nexus.HttpClientTransport.doRequest(HttpClientTransport.java:119)
+	at org.talend.core.nexus.NexusServerUtils.downloadDocument(NexusServerUtils.java:194)
+	at org.talend.core.nexus.NexusServerUtils.search(NexusServerUtils.java:147)
+	at org.talend.core.nexus.NexusServerUtils.search(NexusServerUtils.java:132)
+	at org.talend.librariesmanager.nexus.Nexus2RepositoryHandler.search(Nexus2RepositoryHandler.java:76)
+	at org.talend.librariesmanager.utils.RemoteModulesHelper$RemoteModulesFetchRunnable.searchFromRemoteNexus(RemoteModulesHelper.java:256)
+	at org.talend.librariesmanager.utils.RemoteModulesHelper$RemoteModulesFetchRunnable.run(RemoteModulesHelper.java:151)
+	at org.talend.updates.runtime.engine.factory.PluginOptionalMissingJarsExtraUpdatesFactory.retrieveUninstalledExtraFeatures(PluginOptionalMissingJarsExtraUpdatesFactory.java:69)
+	at org.talend.updates.runtime.engine.ExtraFeaturesUpdatesFactory.retrieveUninstalledExtraFeatures(ExtraFeaturesUpdatesFactory.java:56)
+	at org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob.run(CheckExtraFeaturesToInstallJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:166)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:90)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:281)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:92)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:191)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:715)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:520)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at org.talend.core.nexus.NexusServerUtils$2.execute(NexusServerUtils.java:182)
+	at org.talend.core.nexus.HttpClientTransport.doRequest(HttpClientTransport.java:112)
+	... 10 more
+
+!ENTRY org.talend.platform.logging 2 0 2019-01-14 21:13:32.491
+!MESSAGE 2019-01-14 21:13:32,491 WARN  org.talend.core.model.metadata.MappingFileLoader  - "DOUBLE PRECIS" type non déclaré de BdD pour l'ID du SGBD "sybase_id" sur le noeud: /mapping/dbms/language/dbToTalendTypes/dbType
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:23:37.618
+!MESSAGE 2019-01-14 21:23:37,618 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:23:38.043
+!MESSAGE 2019-01-14 21:23:38,042 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:23:39.036
+!MESSAGE 2019-01-14 21:23:39,036 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Unzip/unzip_files_0.1/target/classpath.jar; seminar.unzip_files_0_1.unzip_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3427 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:25:18.491
+!MESSAGE 2019-01-14 21:25:18,490 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:25:19.259
+!MESSAGE 2019-01-14 21:25:19,258 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:25:19.706
+!MESSAGE 2019-01-14 21:25:19,706 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Unzip/unzip_files_0.1/target/classpath.jar; seminar.unzip_files_0_1.unzip_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3713 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:26:12.303
+!MESSAGE 2019-01-14 21:26:12,302 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:26:14.022
+!MESSAGE 2019-01-14 21:26:14,021 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:26:14.345
+!MESSAGE 2019-01-14 21:26:14,345 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Unzip/unzip_files_0.1/target/classpath.jar; seminar.unzip_files_0_1.unzip_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3664 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:05.272
+!MESSAGE 2019-01-14 21:27:05,272 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:06.321
+!MESSAGE 2019-01-14 21:27:06,321 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:06.786
+!MESSAGE 2019-01-14 21:27:06,785 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Unzip/remove_files_0.1/target/classpath.jar; seminar.remove_files_0_1.remove_files --context=Default --stat_port=3722 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:14.150
+!MESSAGE 2019-01-14 21:27:14,150 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:15.393
+!MESSAGE 2019-01-14 21:27:15,392 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:27:15.728
+!MESSAGE 2019-01-14 21:27:15,727 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Unzip/remove_files_0.1/target/classpath.jar; seminar.remove_files_0_1.remove_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3430 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:33:54.734
+!MESSAGE 2019-01-14 21:33:54,734 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:33:55.114
+!MESSAGE 2019-01-14 21:33:55,114 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:33:55.550
+!MESSAGE 2019-01-14 21:33:55,550 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Transform/replace_files_0.1/target/classpath.jar; seminar.replace_files_0_1.replace_files --context=Default --stat_port=3364 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:34:00.818
+!MESSAGE 2019-01-14 21:34:00,818 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:34:01.249
+!MESSAGE 2019-01-14 21:34:01,249 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:34:01.527
+!MESSAGE 2019-01-14 21:34:01,527 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Transform/replace_files_0.1/target/classpath.jar; seminar.replace_files_0_1.replace_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3758 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:40:41.496
+!MESSAGE 2019-01-14 21:40:41,496 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:40:41.992
+!MESSAGE 2019-01-14 21:40:41,991 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:40:42.285
+!MESSAGE 2019-01-14 21:40:42,285 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Transform/replace_files_0.1/target/classpath.jar; seminar.replace_files_0_1.replace_files --context=dump12_12_2018_to_17_12_2018 --stat_port=4052 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:43:14.704
+!MESSAGE 2019-01-14 21:43:14,704 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:43:15.070
+!MESSAGE 2019-01-14 21:43:15,070 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 21:43:15.368
+!MESSAGE 2019-01-14 21:43:15,367 ERROR org.talend.commons.exception.CommonExceptionHandler  - Erreurs de compilation du Job 
+Au moins le Job "tab_files" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 760
+Message détaillé: datafolder cannot be resolved or is not a field
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Erreurs de compilation du Job 
+Au moins le Job "tab_files" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 760
+Message détaillé: datafolder cannot be resolved or is not a field
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:510)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:820)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:601)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1861)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1401)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:701)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:43:42.451
+!MESSAGE 2019-01-14 21:43:42,451 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:43:43.033
+!MESSAGE 2019-01-14 21:43:43,033 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:43:43.352
+!MESSAGE 2019-01-14 21:43:43,352 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms1024M -Xmx4096M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Transform/tab_files_0.1/target/classpath.jar; seminar.tab_files_0_1.tab_files --context=dump12_12_2018_to_17_12_2018 --stat_port=3619 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:49:27.779
+!MESSAGE 2019-01-14 21:49:27,701 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:49:30.064
+!MESSAGE 2019-01-14 21:49:30,064 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 2 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:49:31.728
+!MESSAGE 2019-01-14 21:49:31,727 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=Default --stat_port=3815 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:50:02.145
+!MESSAGE 2019-01-14 21:50:02,145 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:50:02.686
+!MESSAGE 2019-01-14 21:50:02,686 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:50:03.104
+!MESSAGE 2019-01-14 21:50:03,104 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=Default --stat_port=4070 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:11.072
+!MESSAGE 2019-01-14 21:51:11,072 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:11.610
+!MESSAGE 2019-01-14 21:51:11,610 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:12.110
+!MESSAGE 2019-01-14 21:51:12,110 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=Default --stat_port=3837 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:20.097
+!MESSAGE 2019-01-14 21:51:20,096 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:20.633
+!MESSAGE 2019-01-14 21:51:20,632 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 21:51:21.066
+!MESSAGE 2019-01-14 21:51:21,066 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump12_12_2018_to_17_12_2018 --stat_port=3804 %*
+
+
+!ENTRY org.talend.platform.logging 0 0 2019-01-14 21:57:38.510
+!MESSAGE 2019-01-14 21:57:38,509 WARN  org.talend.commons.exception.CommonExceptionHandler  - 
+
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:29)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:861)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:384)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:420)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponentNamesFromHelp(TalendEditorPaletteFactory.java:1495)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.getRelatedComponents(TalendEditorPaletteFactory.java:469)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.createComponentsDrawer(TalendEditorPaletteFactory.java:759)
+	at org.talend.designer.core.ui.editor.TalendEditorPaletteFactory.createPalette(TalendEditorPaletteFactory.java:1305)
+	at org.talend.designer.core.DesignerCoreUIService.createPalette(DesignerCoreUIService.java:59)
+	at org.talend.core.ui.component.ComponentPaletteUtilities.updatePalette(ComponentPaletteUtilities.java:180)
+	at org.talend.core.ui.component.ComponentPaletteUtilities.filterPalette(ComponentPaletteUtilities.java:207)
+	at org.talend.designer.core.ui.editor.palette.TalendPaletteViewer.filterPalette(TalendPaletteViewer.java:392)
+	at org.talend.designer.core.ui.editor.palette.TalendPaletteViewer.access$0(TalendPaletteViewer.java:380)
+	at org.talend.designer.core.ui.editor.palette.TalendPaletteViewer$1.execute(TalendPaletteViewer.java:98)
+	at org.talend.commons.utils.threading.ExecutionLimiterImproved.callExecute(ExecutionLimiterImproved.java:247)
+	at org.talend.commons.utils.threading.ExecutionLimiterImproved.access$5(ExecutionLimiterImproved.java:246)
+	at org.talend.commons.utils.threading.ExecutionLimiterImproved$2.run(ExecutionLimiterImproved.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:04:36.665
+!MESSAGE 2019-01-14 22:04:36,665 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:04:36.666
+!MESSAGE 2019-01-14 22:04:36,666 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -Dmaven.test.skip=true -DskipTests -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -T 1C -f build-aggregator.pom -P !packaging-and-assembly,!signature -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:04:58.568
+!MESSAGE 2019-01-14 22:04:58,568 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:04:59.003
+!MESSAGE 2019-01-14 22:04:59,003 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:05:00.504
+!MESSAGE 2019-01-14 22:05:00,503 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/seminar_files_import_0.1/target/classpath.jar; seminar.seminar_files_import_0_1.seminar_files_import --context=dump28_11_2018_to_11_12_2018 --stat_port=3474 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:09:49.531
+!MESSAGE 2019-01-14 22:09:49,531 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:09:50.076
+!MESSAGE 2019-01-14 22:09:50,075 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:09:51.441
+!MESSAGE 2019-01-14 22:09:51,441 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx4G -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/seminar_files_import_0.1/target/classpath.jar; seminar.seminar_files_import_0_1.seminar_files_import --context=dump28_11_2018_to_11_12_2018 --stat_port=3496 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:13:15.787
+!MESSAGE 2019-01-14 22:13:15,787 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:13:15.803
+!MESSAGE 2019-01-14 22:13:15,802 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -Dmaven.test.skip=true -DskipTests -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -T 1C -f build-aggregator.pom -P !packaging-and-assembly,!signature -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:13:37.635
+!MESSAGE 2019-01-14 22:13:37,634 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:13:38.061
+!MESSAGE 2019-01-14 22:13:38,061 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:13:39.304
+!MESSAGE 2019-01-14 22:13:39,303 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx4G -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/seminar_files_import_0.1/target/classpath.jar; seminar.seminar_files_import_0_1.seminar_files_import --context=dump28_11_2018_to_11_12_2018 --stat_port=3770 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:24:40.560
+!MESSAGE 2019-01-14 22:24:40,550 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\SEMINAR_PROJECT\TALEND_PROJECT\SEMINAR\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:24:40.569
+!MESSAGE 2019-01-14 22:24:40,569 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -Dmaven.test.skip=true -DskipTests -s "C:\Program Files (x86)\TOS_DI-20181026_1147-V7.1.1\configuration\maven_user_settings.xml" install -llr -T 1C -f build-aggregator.pom -P !packaging-and-assembly,!signature -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:25:02.080
+!MESSAGE 2019-01-14 22:25:02,080 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:25:02.605
+!MESSAGE 2019-01-14 22:25:02,604 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:25:04.523
+!MESSAGE 2019-01-14 22:25:04,523 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx4G -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/seminar_files_import_0.1/target/classpath.jar; seminar.seminar_files_import_0_1.seminar_files_import --context=dump28_11_2018_to_11_12_2018 --stat_port=3565 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:40:28.948
+!MESSAGE 2019-01-14 22:40:28,947 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:40:31.070
+!MESSAGE 2019-01-14 22:40:31,069 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 2 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:40:32.819
+!MESSAGE 2019-01-14 22:40:32,818 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump28_11_2018_to_11_12_2018 --stat_port=3996 %*
+
+
+!ENTRY org.eclipse.ui 4 0 2019-01-14 22:44:11.244
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:179)
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:1)
+	at org.talend.commons.ui.runtime.swt.tableviewer.data.AccessorUtils.get(AccessorUtils.java:38)
+	at org.talend.commons.ui.swt.tableviewer.behavior.DefaultCellModifier.getValue(DefaultCellModifier.java:83)
+	at org.eclipse.jface.viewers.ColumnViewer$2.getValue(ColumnViewer.java:246)
+	at org.eclipse.jface.viewers.EditingSupport.initializeCellEditorValue(EditingSupport.java:99)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.activateCellEditor(ColumnViewerEditor.java:199)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.handleEditorActivationEvent(ColumnViewerEditor.java:452)
+	at org.eclipse.jface.viewers.ColumnViewer.triggerEditorActivationEvent(ColumnViewer.java:675)
+	at org.talend.commons.ui.runtime.swt.tableviewer.TableViewerCreatorNotModifiable$1.triggerEditorActivationEvent(TableViewerCreatorNotModifiable.java:570)
+	at org.eclipse.jface.viewers.ColumnViewer.handleMouseDown(ColumnViewer.java:650)
+	at org.eclipse.jface.viewers.ColumnViewer.access$0(ColumnViewer.java:646)
+	at org.eclipse.jface.viewers.ColumnViewer$1.mouseDown(ColumnViewer.java:95)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.talend.repository.json.action.CreateJSONAction.doRun(CreateJSONAction.java:134)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:673)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3495)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2265)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.executeAction(RepoDoubleClickAction.java:252)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.run(RepoDoubleClickAction.java:141)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-14 22:44:12.214
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:179)
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:1)
+	at org.talend.commons.ui.runtime.swt.tableviewer.data.AccessorUtils.get(AccessorUtils.java:38)
+	at org.talend.commons.ui.swt.tableviewer.behavior.DefaultCellModifier.getValue(DefaultCellModifier.java:83)
+	at org.eclipse.jface.viewers.ColumnViewer$2.getValue(ColumnViewer.java:246)
+	at org.eclipse.jface.viewers.EditingSupport.initializeCellEditorValue(EditingSupport.java:99)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.activateCellEditor(ColumnViewerEditor.java:199)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.handleEditorActivationEvent(ColumnViewerEditor.java:452)
+	at org.eclipse.jface.viewers.ColumnViewer.triggerEditorActivationEvent(ColumnViewer.java:675)
+	at org.talend.commons.ui.runtime.swt.tableviewer.TableViewerCreatorNotModifiable$1.triggerEditorActivationEvent(TableViewerCreatorNotModifiable.java:570)
+	at org.eclipse.jface.viewers.ColumnViewer.handleMouseDown(ColumnViewer.java:650)
+	at org.eclipse.jface.viewers.ColumnViewer.access$0(ColumnViewer.java:646)
+	at org.eclipse.jface.viewers.ColumnViewer$1.mouseDown(ColumnViewer.java:95)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.talend.repository.json.action.CreateJSONAction.doRun(CreateJSONAction.java:134)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:673)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3495)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2265)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.executeAction(RepoDoubleClickAction.java:252)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.run(RepoDoubleClickAction.java:141)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-14 22:44:13.248
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:179)
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:1)
+	at org.talend.commons.ui.runtime.swt.tableviewer.data.AccessorUtils.get(AccessorUtils.java:38)
+	at org.talend.commons.ui.swt.tableviewer.behavior.DefaultCellModifier.getValue(DefaultCellModifier.java:83)
+	at org.eclipse.jface.viewers.ColumnViewer$2.getValue(ColumnViewer.java:246)
+	at org.eclipse.jface.viewers.EditingSupport.initializeCellEditorValue(EditingSupport.java:99)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.activateCellEditor(ColumnViewerEditor.java:199)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.handleEditorActivationEvent(ColumnViewerEditor.java:452)
+	at org.eclipse.jface.viewers.ColumnViewer.triggerEditorActivationEvent(ColumnViewer.java:675)
+	at org.talend.commons.ui.runtime.swt.tableviewer.TableViewerCreatorNotModifiable$1.triggerEditorActivationEvent(TableViewerCreatorNotModifiable.java:570)
+	at org.eclipse.jface.viewers.ColumnViewer.handleMouseDown(ColumnViewer.java:650)
+	at org.eclipse.jface.viewers.ColumnViewer.access$0(ColumnViewer.java:646)
+	at org.eclipse.jface.viewers.ColumnViewer$1.mouseDown(ColumnViewer.java:95)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.talend.repository.json.action.CreateJSONAction.doRun(CreateJSONAction.java:134)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:673)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3495)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2265)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.executeAction(RepoDoubleClickAction.java:252)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.run(RepoDoubleClickAction.java:141)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-14 22:44:19.083
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:179)
+	at org.talend.repository.json.ui.wizards.extraction.ExtractionFieldsWithJSONXPathEditorView$2.get(ExtractionFieldsWithJSONXPathEditorView.java:1)
+	at org.talend.commons.ui.runtime.swt.tableviewer.data.AccessorUtils.get(AccessorUtils.java:38)
+	at org.talend.commons.ui.swt.tableviewer.behavior.DefaultCellModifier.getValue(DefaultCellModifier.java:83)
+	at org.eclipse.jface.viewers.ColumnViewer$2.getValue(ColumnViewer.java:246)
+	at org.eclipse.jface.viewers.EditingSupport.initializeCellEditorValue(EditingSupport.java:99)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.activateCellEditor(ColumnViewerEditor.java:199)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.handleEditorActivationEvent(ColumnViewerEditor.java:452)
+	at org.eclipse.jface.viewers.ColumnViewer.triggerEditorActivationEvent(ColumnViewer.java:675)
+	at org.talend.commons.ui.runtime.swt.tableviewer.TableViewerCreatorNotModifiable$1.triggerEditorActivationEvent(TableViewerCreatorNotModifiable.java:570)
+	at org.eclipse.jface.viewers.ColumnViewer.handleMouseDown(ColumnViewer.java:650)
+	at org.eclipse.jface.viewers.ColumnViewer.access$0(ColumnViewer.java:646)
+	at org.eclipse.jface.viewers.ColumnViewer$1.mouseDown(ColumnViewer.java:95)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.talend.repository.json.action.CreateJSONAction.doRun(CreateJSONAction.java:134)
+	at org.talend.repository.ui.actions.AContextualAction$2.run(AContextualAction.java:673)
+	at org.talend.repository.RepositoryWorkUnit.executeRun(RepositoryWorkUnit.java:99)
+	at org.talend.core.repository.model.AbstractRepositoryFactory.executeRepositoryWorkUnit(AbstractRepositoryFactory.java:258)
+	at org.talend.repository.localprovider.model.LocalRepositoryFactory.executeRepositoryWorkUnit(LocalRepositoryFactory.java:3495)
+	at org.talend.core.repository.model.ProxyRepositoryFactory.executeRepositoryWorkUnit(ProxyRepositoryFactory.java:2265)
+	at org.talend.repository.ui.actions.AContextualAction.run(AContextualAction.java:686)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.executeAction(RepoDoubleClickAction.java:252)
+	at org.talend.repository.viewer.action.RepoDoubleClickAction.run(RepoDoubleClickAction.java:141)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:44:34.186
+!MESSAGE 2019-01-14 22:44:34,186 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/.Java/target/classpath.jar; seminar.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:12.356
+!MESSAGE 2019-01-14 22:45:12,355 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:13.047
+!MESSAGE 2019-01-14 22:45:13,046 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:13.453
+!MESSAGE 2019-01-14 22:45:13,453 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump28_11_2018_to_11_12_2018 --stat_port=4041 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:50.109
+!MESSAGE 2019-01-14 22:45:50,108 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:50.505
+!MESSAGE 2019-01-14 22:45:50,505 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:45:50.942
+!MESSAGE 2019-01-14 22:45:50,941 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump28_11_2018_to_11_12_2018 --stat_port=3688 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:46:58.438
+!MESSAGE 2019-01-14 22:46:58,437 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:47:00.280
+!MESSAGE 2019-01-14 22:47:00,280 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 22:47:00.709
+!MESSAGE 2019-01-14 22:47:00,709 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump28_11_2018_to_11_12_2018 --stat_port=3368 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:07.260
+!MESSAGE 2019-01-14 23:06:07,260 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:07.763
+!MESSAGE 2019-01-14 23:06:07,763 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:06:08.012
+!MESSAGE 2019-01-14 23:06:08,012 ERROR org.talend.commons.exception.CommonExceptionHandler  - Erreurs de compilation du Job 
+Au moins le Job "import_stat_raw" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 3142
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Erreurs de compilation du Job 
+Au moins le Job "import_stat_raw" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 3142
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:510)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:820)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:601)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1861)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:601)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:548)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1401)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:701)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:17.054
+!MESSAGE 2019-01-14 23:06:17,054 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:17.479
+!MESSAGE 2019-01-14 23:06:17,479 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:06:17.733
+!MESSAGE 2019-01-14 23:06:17,732 ERROR org.talend.commons.exception.CommonExceptionHandler  - Erreurs de compilation du Job 
+Au moins le Job "import_stat_raw" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 3142
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Erreurs de compilation du Job 
+Au moins le Job "import_stat_raw" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 3142
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:510)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:820)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1138)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:915)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1891)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1436)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.turnToCodePage(AbstractMultiPageTalendEditor.java:804)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:708)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:294)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:782)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3110)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1794)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:283)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:55.805
+!MESSAGE 2019-01-14 23:06:55,804 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:56.368
+!MESSAGE 2019-01-14 23:06:56,367 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:06:56.806
+!MESSAGE 2019-01-14 23:06:56,806 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump28_11_2018_to_11_12_2018 --stat_port=4002 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:19:31.574
+!MESSAGE 2019-01-14 23:19:31,573 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:19:32.110
+!MESSAGE 2019-01-14 23:19:32,109 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-01-14 23:19:32.563
+!MESSAGE 2019-01-14 23:19:32,563 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_181/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/SEMINAR_PROJECT/TALEND_PROJECT/SEMINAR/poms/jobs/process/Files/Database/import_stat_raw_0.1/target/classpath.jar; seminar.import_stat_raw_0_1.import_stat_raw --context=dump12_12_2018_to_17_12_2018 --stat_port=3483 %*
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.986
+!MESSAGE 2019-01-14 23:29:22,985 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.987
+!MESSAGE 2019-01-14 23:29:22,986 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.988
+!MESSAGE 2019-01-14 23:29:22,988 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.989
+!MESSAGE 2019-01-14 23:29:22,989 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.990
+!MESSAGE 2019-01-14 23:29:22,990 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.992
+!MESSAGE 2019-01-14 23:29:22,991 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.993
+!MESSAGE 2019-01-14 23:29:22,993 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.994
+!MESSAGE 2019-01-14 23:29:22,994 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-01-14 23:29:22.996
+!MESSAGE 2019-01-14 23:29:22,996 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:342)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:333)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

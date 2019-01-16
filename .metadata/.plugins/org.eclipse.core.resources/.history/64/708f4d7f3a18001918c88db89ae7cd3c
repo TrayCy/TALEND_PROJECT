@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_JE3F8Bg5EemJr4PSjVYJbA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_OXnZABg5EemJr4PSjVYJbA" comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" type="id_String" value="C:\SEMINAR_PROJECT\files\defaultfolder"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_8PybgBg5EemJr4PSjVYJbA" confirmationNeeded="false" name="dump12_12_2018_to_17_12_2018">
+    <contextParameter xmi:id="_8PybgRg5EemJr4PSjVYJbA" comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-12.12.2018-17.12.2018"/>
+  </talendfile:ContextType>
+</xmi:XMI>

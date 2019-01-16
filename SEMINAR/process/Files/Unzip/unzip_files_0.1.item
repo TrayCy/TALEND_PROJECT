@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dump12_12_2018_to_17_12_2018" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\defaultfolder"/>
+  </context>
+  <context confirmationNeeded="false" name="dump12_12_2018_to_17_12_2018">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-12.12.2018-17.12.2018"/>
+  </context>
+  <context confirmationNeeded="false" name="dump28_11_2018_to_11_12_2018">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-28.11.2018-11.12.2018"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -105,7 +113,7 @@
   </parameters>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/SEMINAR_PROJECT/files/elasticdump-28.11.2018-11.12.2018&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.datafolder"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="BOTH"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="NO"/>
@@ -128,7 +136,7 @@
   <node componentName="tFileUnarchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileUnarchive_1" show="false"/>
     <elementParameter field="FILE" name="ZIPFILE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/SEMINAR_PROJECT/files/elasticdump-28.11.2018-11.12.2018&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.datafolder"/>
     <elementParameter field="CHECK" name="ROOTNAME" value="false"/>
     <elementParameter field="CHECK" name="INTEGRITY" value="false"/>
     <elementParameter field="CHECK" name="EXTRACTPATH" value="true"/>

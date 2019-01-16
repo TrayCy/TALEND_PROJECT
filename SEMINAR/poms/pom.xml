@@ -16,6 +16,7 @@
     <module>jobs/process/Files/Transform/tab_files_0.1</module>
     <module>jobs/process/Files/Database/display_stat_0.1</module>
     <module>jobs/process/Files/Database/import_stat_raw_0.1</module>
+    <module>jobs/process/Files/seminar_files_import_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SEMINAR</talend.project.name>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-12-19T00:54:48.759+0100">
-  <deletedFolders>process/Transform</deletedFolders>
-  <deletedItems id="_0QlHEP1PEeiOxqBQmeu6pw" path="Transform" type="PROCESS"/>
-  <deletedItems id="_sXyBMP2DEeipzaOTGD12xg" path="Transform" type="PROCESS"/>
-  <deletedItems id="_kMhwMP31EeiNDeUNJ6i_yQ" path="" type="PROCESS"/>
-  <deletedItems id="_6Gzc8P02EeiM3ZeomdJuUQ" path="" type="PROCESS"/>
-  <deletedItems id="_agPmUAFREem-77a_ZftxIw" path="Display" type="PROCESS"/>
-</recyclebin:RecycleBin>

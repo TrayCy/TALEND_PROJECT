@@ -3,18 +3,20 @@ A partir du fichier elasticdump.7z :
 1) Dézipper dans C:\SEMINAR_PROJECT\files et renommez le en 
 elasticdump-jj.mm.aaaa-jj2.mm2.aaaa2
 
-2) Ouvrir Talend et lancer le job "Unzip/unzip_files" avec le chemin de votre dossier /!\ 
+2) Ajouter le chemin de votre dossier en tant que nouveau contexte si nécessaire.
+
+3) Ouvrir Talend et lancer le job "Unzip/unzip_files" avec le bon contexte /!\ 
 (ici dossier 28nov-11déc)
 
-3) Puis lancer "Unzip/remove_files" pour supprimer les .gz (facultatif)
+4) Puis lancer "Unzip/remove_files" pour supprimer les .gz (facultatif)
 
-4) Lancer "Transform/replace_files" pour la première transformation des fichiers /!\
+5) Lancer "Transform/replace_files" pour la première transformation des fichiers /!\
 (ici fichier stat_autor du 28nov)
 
-5) Transformer en tableau avec "Transform/tab_files" pour finir la mise en forme du 
+6) Transformer en tableau avec "Transform/tab_files" pour finir la mise en forme du 
 fichier /!\ (processus auto désactivé, ici fichier stat_autor du 28nov)
 
-6) TODO : suppression des fichiers temporaires
+7) TODO : suppression des fichiers temporaires
 
-7) Affichage du fichier final avec "Database/display_stat", TODO : insertion en base de 
+8) Affichage du fichier final avec "Database/display_stat", TODO : insertion en base de 
 tous les fichiers
