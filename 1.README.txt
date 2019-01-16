@@ -5,6 +5,20 @@ elasticdump-jj.mm.aaaa-jj2.mm2.aaaa2
 
 2) Ajouter le chemin de votre dossier en tant que nouveau contexte si nécessaire.
 
+3) Ouvrir le job seminar_files_import, sélectionner le bon contexte, lancer le job.
+
+Still TODO: Suppression des fichiers temporaires
+
+
+OLD - Gardé pour débug
+
+A partir du fichier elasticdump.7z :
+
+1) Dézipper dans C:\SEMINAR_PROJECT\files et renommez le en 
+elasticdump-jj.mm.aaaa-jj2.mm2.aaaa2
+
+2) Ajouter le chemin de votre dossier en tant que nouveau contexte si nécessaire.
+
 3) Ouvrir Talend et lancer le job "Unzip/unzip_files" avec le bon contexte /!\ 
 (ici dossier 28nov-11déc)
 
