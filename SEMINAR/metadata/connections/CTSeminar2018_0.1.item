@@ -218,6 +218,11 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="_pqYAvgUgEemudItD3gXkAA" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_pqYAvwUgEemudItD3gXkAA" name="NCHAR" javaDataType="1" nullable="columnNullable"/>
         </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_5BorTSDPEemdYMCCkCsKSw" name="amount" label="amount" length="10" sourceType="INT" talendType="id_Integer">
+          <taggedValue xmi:id="_5BorTiDPEemdYMCCkCsKSw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_5BorTyDPEemdYMCCkCsKSw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5BorUCDPEemdYMCCkCsKSw" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
       </ownedElement>
     </ownedElement>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_oa8_oAUgEemudItD3gXkAA" name="db_accessadmin"/>

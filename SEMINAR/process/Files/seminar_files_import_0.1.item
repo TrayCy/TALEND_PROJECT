@@ -9,6 +9,9 @@
   <context confirmationNeeded="false" name="dump28_11_2018_to_11_12_2018">
     <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-28.11.2018-11.12.2018"/>
   </context>
+  <context confirmationNeeded="false" name="dump18_18_2018_to_15_01_2019">
+    <contextParameter comment="The path to the folder of the data to import" name="datafolder" prompt="datafolder?" promptNeeded="false" repositoryContextId="_JEqRoBg5EemJr4PSjVYJbA" type="id_String" value="C:\SEMINAR_PROJECT\files\elasticdump-18.12.2018-15.01.2019"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx4G&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>

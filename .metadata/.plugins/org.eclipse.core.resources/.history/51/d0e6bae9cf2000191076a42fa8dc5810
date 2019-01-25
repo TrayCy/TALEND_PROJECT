@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_nmEYUAUbEemudItD3gXkAA" id="_RC8wsAUbEemudItD3gXkAA" label="CTSeminar2018" version="0.1" statusCode="" item="_nmEYUgUbEemudItD3gXkAA" displayName="CTSeminar2018">
+    <author href="../../talend.project#_53VIcP00EeiL74lcyNuwCQ"/>
+    <additionalProperties xmi:id="_nmMUIAUbEemudItD3gXkAA" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_nmMUIQUbEemudItD3gXkAA" key="created_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_nmM7MAUbEemudItD3gXkAA" key="created_date" value="2018-12-21T13:26:19.106+0100"/>
+    <additionalProperties xmi:id="_nmM7MQUbEemudItD3gXkAA" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_nmM7MgUbEemudItD3gXkAA" key="modified_product_version" value="7.1.1.20181026_1147"/>
+    <additionalProperties xmi:id="_nmM7MwUbEemudItD3gXkAA" key="modified_date" value="2019-01-25T19:34:49.407+0100"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_nmEYUQUbEemudItD3gXkAA" path="" locked="true" lockDate="2019-01-25T19:34:25.510+0100">
+    <locker href="../../talend.project#_53VIcP00EeiL74lcyNuwCQ"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:DatabaseConnectionItem xmi:id="_nmEYUgUbEemudItD3gXkAA" property="_nmEYUAUbEemudItD3gXkAA" state="_nmEYUQUbEemudItD3gXkAA" typeName="Microsoft SQL Server">
+    <connection href="CTSeminar2018_0.1.item#_nl5ZMAUbEemudItD3gXkAA"/>
+  </TalendProperties:DatabaseConnectionItem>
+</xmi:XMI>
